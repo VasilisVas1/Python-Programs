@@ -58,16 +58,14 @@ Vassilis Vassileiou
 - **Drand** for providing publicly available randomness.
 - **Scipy & Pandas** for entropy calculation and data handling.
 
+```
+
+
+```
 
 
 
-
-
-
-
-
-
-# Longest Sequence of Zeros and Ones in Drand Randomness Askshsh12.py
+# Longest Sequence of Zeros and Ones in Drand Randomness Askhsh12.py
 
 ## Description
 This Python script retrieves randomness values from the Drand (Distributed Randomness Beacon) API for the last 100 rounds and analyzes the longest sequence of consecutive zeros and ones in their binary representation.
@@ -77,6 +75,22 @@ This Python script retrieves randomness values from the Drand (Distributed Rando
 - Retrieves randomness values from the last 100 rounds.
 - Converts the concatenated randomness values from hexadecimal to binary.
 - Finds and prints the longest sequence of consecutive `0`s and `1`s in the binary string.
+
+## Prerequisites
+To run this script, you need:
+- Python 3.x
+- Required Python libraries: `urllib` and `json` (included in Python's standard library).
+
+## Installation & Usage
+1. Clone the repository:
+```sh
+git clone https://github.com/yourusername/your-repository.git
+cd your-repository
+```
+2. Run the script:
+```sh
+python script.py
+```
 
 ## Explanation
 1. The script makes an HTTP request to `https://drand.cloudflare.com/public/latest` to get the latest round and randomness value.
@@ -95,7 +109,9 @@ This output shows the longest consecutive sequence of zeros and ones found in th
 ## License
 This project is licensed under the MIT License.
 
+## Author
+Vassilis Vassileiou
+
 ## Acknowledgments
 - Drand for providing publicly available randomness.
-
 
