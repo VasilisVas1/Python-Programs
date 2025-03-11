@@ -115,3 +115,68 @@ Vassilis Vassileiou
 ## Acknowledgments
 - Drand for providing publicly available randomness.
 
+
+
+```
+
+
+```
+
+
+
+# Card Game Simulation Askhsh4.py
+
+## Description
+This Python script simulates a two-player card game inspired by Blackjack. The game is played 100 times in two different variations, comparing results between a standard random deck and a modified experimental deck.
+
+## Game Rules
+- Each player draws cards until their total sum is at least 16.
+- Face cards (J, Q, K) are worth 10 points.
+- Number cards retain their face value.
+- A player who exceeds 21 points loses immediately.
+- If both players stay under 21, the one with the higher total wins.
+- If both players have the same total, it is a draw.
+
+## Features
+- Two variations of the game: one using a fully randomized deck and another using a modified deck where the first card drawn is always a 10 or a face card.
+- Tracks the number of wins and draws for both players.
+- Uses Python's `random.shuffle()` for deck shuffling.
+
+## How It Works
+1. **Standard Game Simulation**
+   - A deck of 52 standard playing cards is shuffled.
+   - Player 1 draws cards until their total is at least 16.
+   - If Player 1 exceeds 21, Player 2 automatically wins.
+   - Player 2 then draws cards under the same conditions.
+   - The winner is determined based on final hand values.
+
+2. **Modified Game Simulation**
+   - The first card of Player 1 is always a 10 or a face card.
+   - The deck is structured to follow this rule while maintaining randomness for subsequent draws.
+   - The same rules apply for determining the winner.
+
+## Output
+At the end of the execution, the script displays:
+- The number of wins for Player 1 and Player 2.
+- The number of draws.
+- A comparison between the standard game and the modified experiment.
+
+## Requirements
+- Python 3.x
+- No external dependencies
+
+## Installation & Usage
+1. Clone the repository:
+```sh
+git clone https://github.com/yourusername/your-repository.git
+cd your-repository
+```
+2. Run the script:
+```sh
+python script.py
+```
+
+The program will execute 100 rounds of both the standard and modified game variations and print the results.
+
+## Author
+Vassilis Vassileiou
