@@ -180,3 +180,54 @@ The program will execute 100 rounds of both the standard and modified game varia
 
 ## Author
 Vassilis Vassileiou
+
+```
+
+
+```
+
+
+
+# Randomness-Based KINO Number Prediction Main.py
+
+## Description
+This Python script fetches random numbers from the Drand randomness beacon and compares them with the winning numbers of the latest KINO lottery draw from OPAP. It determines how many of the generated numbers match the winning numbers from the most recent draw.
+
+## How It Works
+1. The script fetches the latest randomness value from Drand (a distributed randomness beacon).
+2. The randomness value is split into byte pairs and converted to integers.
+3. The integers are mapped to a range of 0-79 (valid KINO numbers).
+4. The script retrieves the latest KINO draw results from the OPAP API.
+5. The script counts how many of the generated numbers match the winning numbers of the latest KINO draw.
+6. The number of matches is displayed.
+
+## Prerequisites
+Ensure you have Python installed on your system. This script requires an internet connection to fetch data from the APIs.
+
+## Installation & Usage
+1. Clone the repository:
+```sh
+git clone https://github.com/yourusername/your-repository.git
+cd your-repository
+```
+2. Run the script:
+```sh
+python script.py
+```
+
+## Output
+The script will display the number of matches between the generated numbers and the latest KINO draw result:
+```
+Οι αριθμοί που θα κληρωνόντουσαν στην τελευταία κλήρωση του ΚΙΝΟ είναι X
+```
+where `X` is the number of matches.
+
+## Disclaimer
+This script does not predict future KINO numbers. The randomness source (Drand) is independent of OPAP's draw process, and this is for experimental and educational purposes only.
+
+## License
+This project is released under the MIT License.
+
+## Author
+Vassilis Vassileiou
+
