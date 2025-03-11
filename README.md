@@ -30,13 +30,13 @@ pip install scipy pandas
 
 ### Clone the Repository
 ```sh
-git clone https://github.com/yourusername/your-repository.git
-cd your-repository
+git clone https://github.com/VasilisVas1/Python-Programs
+cd Python-Programs
 ```
 
 ### Run the Script
 ```sh
-python script.py
+python Askhsh11.py
 ```
 
 ## Example Output
@@ -84,12 +84,12 @@ To run this script, you need:
 ## Installation & Usage
 1. Clone the repository:
 ```sh
-git clone https://github.com/yourusername/your-repository.git
-cd your-repository
+git clone https://github.com/VasilisVas1/Python-Programs
+cd Python-Programs
 ```
 2. Run the script:
 ```sh
-python script.py
+python Askhsh12.py
 ```
 
 ## Explanation
@@ -168,12 +168,12 @@ At the end of the execution, the script displays:
 ## Installation & Usage
 1. Clone the repository:
 ```sh
-git clone https://github.com/yourusername/your-repository.git
-cd your-repository
+git clone https://github.com/VasilisVas1/Python-Programs
+cd Python-Programs
 ```
 2. Run the script:
 ```sh
-python script.py
+python Askhsh4.py
 ```
 
 The program will execute 100 rounds of both the standard and modified game variations and print the results.
@@ -207,12 +207,12 @@ Ensure you have Python installed on your system. This script requires an interne
 ## Installation & Usage
 1. Clone the repository:
 ```sh
-git clone https://github.com/yourusername/your-repository.git
-cd your-repository
+git clone https://github.com/VasilisVas1/Python-Programs
+cd Python-Programs
 ```
 2. Run the script:
 ```sh
-python script.py
+python main.py
 ```
 
 ## Output
