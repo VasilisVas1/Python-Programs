@@ -45,9 +45,6 @@ The entropy is:  2.996
 ```
 This value represents how uniformly distributed the randomness values are.
 
-## License
-
-This project is licensed under the **MIT License**.
 
 ## Author
 
@@ -106,8 +103,6 @@ python Askhsh12.py
 ```
 This output shows the longest consecutive sequence of zeros and ones found in the binary randomness data.
 
-## License
-This project is licensed under the MIT License.
 
 ## Author
 Vassilis Vassileiou
@@ -225,8 +220,6 @@ where `X` is the number of matches.
 ## Disclaimer
 This script does not predict future KINO numbers. The randomness source (Drand) is independent of OPAP's draw process, and this is for experimental and educational purposes only.
 
-## License
-This project is released under the MIT License.
 
 ## Author
 Vassilis Vassileiou
